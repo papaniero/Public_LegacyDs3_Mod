@@ -1,0 +1,50 @@
+Things I changed in ds3 currently
+-------------------------------------
+
+added Legacy Poise (needs exhaustive testing)
+(ceiling then 2x multiplier of vanilla poise value)
+added Weight Class Defense (needs exhaustive testing)
+(4 classes based on weight <2,<5,<10,10+)
+
+Max hp multiplier 1.1 (tested but not entirely satisfied)
+mp regen -1 (mostly untested)
+souls multiplier 1.35 (this feels about right)
+
+things to potentially add
+- fix the banning problem....
+Use UXM, Modengine1, ?ToolName?
+
+check out 
+http://soulsmodding.wikidot.com/
+https://www.youtube.com/c/ScrubMilk
+
+
+
+-increase damage of heavy attacks
+-make poison not suck
+-maybe increase item discovery a bit
+-remove bonfires
+-change some lighting on boring af areas
+-change some enemy placements (specifics to come)
+-remove the necessity for the life ring
+
+_____________________
+_____________________
+
+current poise changes
+dmgLv_Push was 0
+dmgLv_BlowM was 5
+dmgLv_BlowS was 5
+dmgLv_BlowLL was 5
+
+effectTargetFriend was on
+effectTargetEnemy was on
+
+	current defense changes
+Added 4 defense classes
+	phys,elem	class	weight
+<2 weight = 5,10	1	<2
+<5 weight = 10,10	2	<5
+<10 weight = 20,15	3	<10
+10+ weight = 30,20	4	10+
+
