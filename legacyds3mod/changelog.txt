@@ -9,24 +9,17 @@ added Weight Class Defense (needs exhaustive testing)
 Max hp multiplier 1.1 (tested but not entirely satisfied)
 mp regen -1 (mostly untested)
 souls multiplier 1.35 (this feels about right)
+Item discovery vastly increased (needs testing)
 
 things to potentially add
-- fix the banning problem....
-Use UXM, Modengine1, ?ToolName?
-
-check out 
-http://soulsmodding.wikidot.com/
-https://www.youtube.com/c/ScrubMilk
-
-
+--------------------------
 
 -increase damage of heavy attacks
 -make poison not suck
--maybe increase item discovery a bit
--remove bonfires
--change some lighting on boring af areas
--change some enemy placements (specifics to come)
--remove the necessity for the life ring
+-remove some bonfires
+-change lighting on boring af areas
+-change some dickweed enemy placements (specifics to come)
+-remove the necessity for the life ring (long term, may never happen)
 
 _____________________
 _____________________
