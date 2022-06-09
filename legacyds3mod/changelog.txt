@@ -5,6 +5,9 @@ added Legacy Poise (needs exhaustive testing)
 (ceiling then 2x multiplier of vanilla poise value)
 added Weight Class Defense (needs exhaustive testing)
 (4 classes based on weight <2,<5,<10,10+)
+increased damage of heavy attacks 1.1x
+increased 2h attack damage 1.1x
+
 
 Max hp multiplier 1.1 (tested but not entirely satisfied)
 mp regen -1 (mostly untested)
@@ -13,8 +16,7 @@ Item discovery vastly increased (needs testing)
 
 things to potentially add
 --------------------------
-
--increase damage of heavy attacks
+-decrease r1 stagger damage
 -make poison not suck
 -remove some bonfires
 -change lighting on boring af areas
@@ -40,4 +42,17 @@ Added 4 defense classes
 <5 weight = 10,10	2	<5
 <10 weight = 20,15	3	<10
 10+ weight = 30,20	4	10+
+
+______________________
+______________________
+Heavy Attack Stuff
+
+4 Digits followed by a 1 or 3 and then 2 more digits.
+ex. 2020100, 2020300, etc.
+
+//increases heavy attack damage
+param AtkParam_Pc: id \d{4,4}[13]\d\d: [Aa]tk.*Correction: * 1.1;
+
+//increases two handed damage
+param AtkParam_Pc: id \d{4,4}[23]\d\d: [Aa]tk.*Correction: * 1.1;
 
