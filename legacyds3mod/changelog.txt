@@ -1,28 +1,38 @@
 Things I changed in ds3 currently
 -------------------------------------
 
-added Legacy Poise (needs exhaustive testing)
+-added Legacy Poise (needs exhaustive testing)
 (ceiling then 2x multiplier of vanilla poise value)
-added Weight Class Defense (needs exhaustive testing)
+-added Weight Class Defense (needs exhaustive testing)
 (4 classes based on weight <2,<5,<10,10+)
-increased damage of heavy attacks 1.1x
-increased 2h attack damage 1.1x
 
+-increased damage of heavy attacks 1.1x
+-increased 2h attack damage 1.1x
 
-Max hp multiplier 1.1 (tested but not entirely satisfied)
-mp regen -1 (mostly untested)
-souls multiplier 1.35 (this feels about right)
-Item discovery vastly increased (needs testing)
+-Added levelup and allot prompt to bonfires via script made by Xylozi
+
+-Max hp multiplier 1.1 (tested but not entirely satisfied)
+-mp regen -1 (mostly untested)
+-souls multiplier 1.35 (this feels about right)
+
+-Item discovery vastly increased (needs testing)
+
+-reduce shop prices of ammunition
+-allow more ammunitions to be carried
+-Reworked Bows, Greatbows, Crossbows
 
 things to potentially add
 --------------------------
--decrease r1 stagger damage
--make poison not suck
--remove some bonfires
--change lighting on boring af areas
+
+-make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)
+-make poison not suck (maybe just give everything toxic?)
+-remove some bonfires (I know how >:)  )
+-change lighting on boring af areas (dunno how) (try incandescent reshade)
 -change some dickweed enemy placements (specifics to come)
 -remove the necessity for the life ring (long term, may never happen)
-
+-decrease r1 stagger damage (dunno how)
+-make parrying a little easier (probably requires animation edits) (reduce stamina damage on partial parries)
+-slow down estus recovery (contacted CornflakeRush) (probably requires animation edits)
 _____________________
 _____________________
 
@@ -55,4 +65,171 @@ param AtkParam_Pc: id \d{4,4}[13]\d\d: [Aa]tk.*Correction: * 1.1;
 
 //increases two handed damage
 param AtkParam_Pc: id \d{4,4}[23]\d\d: [Aa]tk.*Correction: * 1.1;
+
+______________________
+______________________
+Bonfires Marked For Destruction:
+
+Iudex Gundyr
+
+Tower On The Wall
+(maybe move Vordt bonfire behind big door for cinematic effect)
+Dancer of The Boreal Valley
+Oceiros, The Consumed King
+
+Foot of The High Wall
+Undead Settlement
+Dilapidated Bridge
+
+Road of Sacrifices
+Crucifixion Woods
+Crystal Sage
+Farron Keep
+Farron Keep Perimeter
+Old Wolf of Farron
+Abyss Watchers
+
+Cathedral of the Deep
+Rosaria's Bed Chamber
+
+High Lord Wolnir
+Abandoned Tomb
+Old King's Antechamber
+Old Demon King
+
+Irithyll of The Boreal Valley
+Distant Manor
+Pontiff Sulyvahn
+Water Reserve
+Prison Tower
+
+Dragon Barracks
+Dragonslayer Armour
+
+Archdragon Peak
+Dragon-Kin Mausoleum
+Nameless King
+
+Flameless Shrine
+
+Rope Bridge Cave
+Sister Friede
+Depths of the Painting
+
+The Demon Prince
+
+Mausoleum Lookout
+Shared Grave
+Church of Filianore
+
+___________________
+___________________
+Bow Changes
+
+MaxNum --> change max number held (seems like 255 is max?)
+AtkParam_Pc need to go in and change each arrow damage for each move in the moveset...fuck me
+change all attack corrections to 100 or higher
+the lowest one, change to 80
+(consider increasing stamina cost of rapidfire)
+
+tree = wood
+Mon Mitsuya = moonlight
+Dragon Hunting Oya = dark
+poison = poison
+arrows = fire
+feather = feather
+big = large 
+ordinary = standard
+
+increased bow scaling
+shortbow 
+dex 36 --> 55
+luck 14 --> 20
+
+composite
+str --> 40
+dex --> 40
+luck 18 --> 20
+
+longbow
+dex 35 --> 55
+luck 14 --> 20
+
+dragonrider
+str 31 --> 50
+luck 12 --> 20
+
+white birch
+str 5 --> 10
+dex 50 --> 55
+luck 18 --> 20
+
+Darkmoon
+dex 10 --> 20
+int 60 --> 75
+luck --> 20
+
+Black Bow of Pharis (low base dmg)
+str 16 --> 20
+dex 64 --> 75
+
+Dragonslayer Greatbow
+str 35 --> 65
+dex 50 --> 65
+
+Onislayer Greatbow
+str 15 --> 30
+dex 61 --> 80
+
+Millwood Greatbow
+unchanged
+
+Crossbow Changes
+
+*changed all ReinforceParamWeapon ID* to 0 (standard)
+this allows for weapon scaling
+
+Light Crossbow
+str 10
+dex 55
+luck 20
+
+Knight's Crossbow
+str 20
+dex 20
+fai 60
+luck 20
+
+Arbalest
+str 75
+dex 10
+luck 20
+
+Sniper Crossbow
+str 10
+dex 75
+luck 20
+
+Avelyn
+str 50
+dex 50
+luck 20
+
+Heavy Crossbow
+str 55
+dex 10
+luck 20
+
+Repeating Crossbow
+str 50
+dex 50
+luck 20
+
+
+
+
+
+
+
+
 
