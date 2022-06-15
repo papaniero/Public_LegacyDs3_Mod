@@ -11,7 +11,9 @@ Things I changed in ds3 currently
 
 -Added levelup and allot prompt to bonfires via script made by Xylozi
 
--Max hp multiplier 1.1 (tested but not entirely satisfied)
+-added +3 vigor to life ring
+-removed 1.1x max hp multiplier
+
 -mp regen -1 (mostly untested)
 -souls multiplier 1.35 (this feels about right)
 
@@ -21,17 +23,24 @@ Things I changed in ds3 currently
 -allow more ammunitions to be carried
 -Reworked Bows, Greatbows, Crossbows
 
+-make poison no longer sucks
+-allows more throwables to be carried
+-removed boss status immunity for poison, bleed, and frostbite
+
 things to potentially add
 --------------------------
 
--make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)
--make poison not suck (maybe just give everything toxic?)
+-consider buffing fire arrows...they suck
+-buff whips (they suck)
+-try to remove nudity debuff
+-make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)(can be easily done in ItemLotParam)
 -remove some bonfires (I know how >:)  )
 -change lighting on boring af areas (dunno how) (try incandescent reshade)
 -change some dickweed enemy placements (specifics to come)
+-add more fun enemies to fight in boring areas
 -remove the necessity for the life ring (long term, may never happen)
 -decrease r1 stagger damage (dunno how)
--make parrying a little easier (probably requires animation edits) (reduce stamina damage on partial parries)
+-make parrying a little easier (definitely requires animation edits) (reduce stamina/hp damage on partial parries)
 -slow down estus recovery (contacted CornflakeRush) (probably requires animation edits)
 _____________________
 _____________________
@@ -224,6 +233,44 @@ Repeating Crossbow
 str 50
 dex 50
 luck 20
+
+fire arrow
+fire damage 40 --> 65
+
+_______________________
+Poison Changes
+
+SpEffectParam Infusion: Poison (and arrows, and throwing knives, and pine resin)
+Duration 90 --> 10 --> 20
+Trigger Interval 1 --> .5
+change hp% .07 --> .5% --> .25%
+change hp% 7 --> 15
+
+SpEffectParam ID 30000
+disablePoison 1 --> 0
+Resist %: Poison 1 --> .65
+
+30020
+disableBleed 1 --> 0
+Resist %: Bleed 1 --> .65
+
+30040
+disableFrostbite 1 --> 0
+Resist %: Frost 1 --> .65
+
+Max num
+
+Firebomb 
+Black Firebomb
+Lightning Urn
+Throwing Knife
+Poison Throwing Knife
+Kukri
+Rope Firebomb
+Rope Black Firebomb
+
+
+
 
 
 
