@@ -27,19 +27,28 @@ Things I changed in ds3 currently
 -allows more throwables to be carried
 -removed boss status immunity for poison, bleed, and frostbite
 
+
+-un-nerfed nudity
+-buffed elemental arrows
+
 things to potentially add
 --------------------------
 
--consider buffing fire arrows...they suck
--buff whips (they suck)
--try to remove nudity debuff
+-buff whips (they suck) (yikes those numbers are gross)
+
 -make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)(can be easily done in ItemLotParam)
 -remove some bonfires (I know how >:)  )
--change lighting on boring af areas (dunno how) (try incandescent reshade)
 -change some dickweed enemy placements (specifics to come)
 -add more fun enemies to fight in boring areas
--remove the necessity for the life ring (long term, may never happen)
+
+-remove the necessity for the life ring (long term, may never happen) (try using the currently using a weapon param)
 -decrease r1 stagger damage (dunno how)
+
+-fix npc's having too much poise
+
+Jailer HP drain SpEffectParam 11907
+stateinfo 207
+
 -make parrying a little easier (definitely requires animation edits) (reduce stamina/hp damage on partial parries)
 -slow down estus recovery (contacted CornflakeRush) (probably requires animation edits)
 _____________________
@@ -235,7 +244,15 @@ dex 50
 luck 20
 
 fire arrow
-fire damage 40 --> 65
+fire damage 40 --> 90
+
+dark arrow
+physical damage 0 --> 20
+dark damage 65 --> 100
+
+moonlight arrow
+physical damage 0 --> 20
+magic damage 75 --> 100
 
 _______________________
 Poison Changes
@@ -268,10 +285,11 @@ Poison Throwing Knife
 Kukri
 Rope Firebomb
 Rope Black Firebomb
+___________________
+Nudity
 
-
-
-
+SpEffectParam 6380-6383
+Found in armor params 900000 etc
 
 
 
