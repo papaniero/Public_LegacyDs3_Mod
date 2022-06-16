@@ -31,10 +31,12 @@ Things I changed in ds3 currently
 -un-nerfed nudity
 -buffed elemental arrows
 
+-buffed whips, multiplied all AtkParam_Pc values by 1.2x
+
 things to potentially add
 --------------------------
 
--buff whips (they suck) (yikes those numbers are gross)
+
 
 -make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)(can be easily done in ItemLotParam)
 -remove some bonfires (I know how >:)  )
