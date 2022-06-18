@@ -1,7 +1,7 @@
 Things I changed in ds3 currently
 -------------------------------------
 
--added Legacy Poise (needs exhaustive testing)
+-added Legacy Poise
 (ceiling then 2x multiplier of vanilla poise value)
 -added Weight Class Defense (needs exhaustive testing)
 (4 classes based on weight <2,<5,<10,10+)
@@ -12,31 +12,33 @@ Things I changed in ds3 currently
 -Added levelup and allot prompt to bonfires via script made by Xylozi
 
 -added +3 vigor to life ring
--removed 1.1x max hp multiplier
+(removed 1.1x old max hp multiplier)
 
--mp regen -1 (mostly untested)
--souls multiplier 1.35 (this feels about right)
+-mp regen -1
+-souls multiplier 1.35
 
 -Item discovery vastly increased (needs testing)
 
 -reduce shop prices of ammunition
 -allow more ammunitions to be carried
--Reworked Bows, Greatbows, Crossbows
+-Reworked Bows, Greatbows, Crossbows (needs extensive testing)
 
--make poison no longer sucks
+-poison no longer sucks (needs more testing)
 -allows more throwables to be carried
 -removed boss status immunity for poison, bleed, and frostbite
 
 
 -un-nerfed nudity
--buffed elemental arrows
+-buffed elemental arrows (needs testing)
 
--buffed whips, multiplied all AtkParam_Pc values by 1.2x
+-buffed whips, multiplied all AtkParam_Pc values by 1.2x (needs testing)
+
+-increased punch dps (got a job for anthony) base 20 --> 30 (needs testing)
+
+-made parries better (needs extensive testing)
 
 things to potentially add
 --------------------------
-
-
 
 -make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)(can be easily done in ItemLotParam)
 -remove some bonfires (I know how >:)  )
@@ -44,15 +46,13 @@ things to potentially add
 -add more fun enemies to fight in boring areas
 
 -remove the necessity for the life ring (long term, may never happen) (try using the currently using a weapon param)
--decrease r1 stagger damage (dunno how)
 
 -fix npc's having too much poise
 
 Jailer HP drain SpEffectParam 11907
 stateinfo 207
 
--make parrying a little easier (definitely requires animation edits) (reduce stamina/hp damage on partial parries)
--slow down estus recovery (contacted CornflakeRush) (probably requires animation edits)
+-slow down estus recovery (contacted CornflakeRush) (requires animation edits)
 _____________________
 _____________________
 
@@ -147,7 +147,7 @@ ___________________
 Bow Changes
 
 MaxNum --> change max number held (seems like 255 is max?)
-AtkParam_Pc need to go in and change each arrow damage for each move in the moveset...fuck me
+AtkParam_Pc need to go in and change each arrow damage for each move in the moveset
 change all attack corrections to 100 or higher
 the lowest one, change to 80
 (consider increasing stamina cost of rapidfire)
@@ -292,6 +292,20 @@ Nudity
 
 SpEffectParam 6380-6383
 Found in armor params 900000 etc
+_________________________________
+Parry Anim Edits
+
+removed partial parries
+might want to address the weird stamina thing...and how many parry frames stuff has...
+Parry Shield 12 frames, animation 91 fixed
+Small Shield 10 frames, animation 48 fixed
+Medium Shield 8 frames, animation 150 fixed
+Fist Weapons 10 frames, animation 42 fixed
+Curved Swords 8 frames, animation 28 fixed
+Parrying Dagger 12 frames, animation 71 fixed
+Rapier 8 frames, animation 218 fixed **feels weak
+Katana 8 frames, animation 29 fixed **feels weak
+Farron Greatsword 8 frames, animation 161 fixed **feels weak
 
 
 
