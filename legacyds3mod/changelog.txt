@@ -296,20 +296,20 @@ _________________________________
 Parry Anim Edits
 
 removed partial parries
-might want to address the weird stamina thing...and how many parry frames stuff has...
-Parry Shield 12 frames, animation 91 fixed
-Small Shield 10 frames, animation 48 fixed
-Medium Shield 8 frames, animation 150 fixed
-Fist Weapons 10 frames, animation 42 fixed
-Curved Swords 8 frames, animation 28 fixed
-Parrying Dagger 12 frames, animation 71 fixed
-Rapier 8 frames, animation 218 fixed **feels weak
-Katana 8 frames, animation 29 fixed **feels weak
-Farron Greatsword 8 frames, animation 161 fixed **feels weak
 
+Parry Shield 12 --> 8 frames, animation 91 fixed
+Small Shield 10 --> 7 frames, animation 48 fixed
+Medium Shield 8 --> 6 frames, animation 150 fixed
+Fist Weapons 10 --> 7 frames, animation 42 fixed
+Curved Swords 8 --> 7 frames, animation 28 fixed
+Parrying Dagger 12 --> 8 frames, animation 71 fixed
+Rapier 8 --> 7 frames, animation 218 fixed 
+Katana 10 --> 7 frames, animation 29 fixed 
+Farron Greatsword 8 --> 7 frames, animation 161 fixed 
 
-
-
+Spell Parries
+Sacred Bloom 12 frames anim 214
+Golden Wing 12 frames anim 150
 
 
 
