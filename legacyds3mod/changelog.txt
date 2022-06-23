@@ -11,12 +11,6 @@ Things I changed in ds3 currently
 
 -Added levelup and allot prompt to bonfires via script made by Xylozi
 
--added +3 vigor to life ring
-(removed 1.1x old max hp multiplier)
-
--mp regen -1
--souls multiplier 1.35
-
 -Item discovery vastly increased (needs testing)
 
 -reduce shop prices of ammunition
@@ -37,15 +31,23 @@ Things I changed in ds3 currently
 
 -made parries better (needs extensive testing)
 
+-changed A LOT of starting class stuff
+-added HoodiePatcher for balance and TAE edits (needs A LOT of testing)
+-REMOVED 1.35x soul multiplier (might return in the future idk)
+-REMOVED life ring +3 vigor (instead 3 vigor added to each starting class)
+-REMOVED mp regen -1 on life ring
+-added .5% fp regen per second on all armor (including nude) (built into defense spEffects)
+(Life ring is vanilla now)
+
 things to potentially add
 --------------------------
 
--make it possible to get covenant items (decrease cost, or increase found or dropped) (test with item discovery)(can be easily done in ItemLotParam)
+-fix the name of the "assassin" ... lol
+-maybe change around the starting gifts?
+
 -remove some bonfires (I know how >:)  )
 -change some dickweed enemy placements (specifics to come)
 -add more fun enemies to fight in boring areas
-
--remove the necessity for the life ring (long term, may never happen) (try using the currently using a weapon param)
 
 -fix npc's having too much poise
 
