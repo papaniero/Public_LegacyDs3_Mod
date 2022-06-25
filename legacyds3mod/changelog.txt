@@ -33,11 +33,14 @@ Things I changed in ds3 currently
 
 -changed A LOT of starting class stuff
 -added HoodiePatcher for balance and TAE edits (needs A LOT of testing)
--REMOVED 1.35x soul multiplier (might return in the future idk)
+-1.35x soul multiplier
 -REMOVED life ring +3 vigor (instead 3 vigor added to each starting class)
 -REMOVED mp regen -1 on life ring
 -added .5% fp regen per second on all armor (including nude) (built into defense spEffects)
 (Life ring is vanilla now)
+
+-added Calamity ring in place of Cracked Red Eye Orbs
+-Calamity ring now decreases damage by 1/2
 
 things to potentially add
 --------------------------
@@ -312,7 +315,4 @@ Farron Greatsword 8 --> 7 frames, animation 161 fixed
 Spell Parries
 Sacred Bloom 12 frames anim 214
 Golden Wing 12 frames anim 150
-
-
-
 
