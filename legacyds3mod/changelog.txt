@@ -54,7 +54,7 @@ things to potentially add
 Jailer HP drain SpEffectParam 11907
 stateinfo 207
 
--slow down estus recovery (contacted CornflakeRush) (requires animation edits)
+-slow down estus recovery (contacted CornflakeRush) (requires animation edits and hoodie stuff)
 _____________________
 _____________________
 
@@ -100,16 +100,16 @@ Dancer of The Boreal Valley
 Oceiros, The Consumed King
 
 Foot of The High Wall
-Undead Settlement
+Undead Settlement (?)
 Dilapidated Bridge
 
-Road of Sacrifices
+Road of Sacrifices (?)
 Crucifixion Woods
 Crystal Sage
 Farron Keep
 Farron Keep Perimeter
 Old Wolf of Farron
-Abyss Watchers
+Abyss Watchers (?)
 
 Cathedral of the Deep
 Rosaria's Bed Chamber
