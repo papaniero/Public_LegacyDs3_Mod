@@ -32,18 +32,18 @@ Things I changed in ds3 currently
 -made parries better (needs extensive testing)
 
 -changed A LOT of starting class stuff
--added HoodiePatcher for balance and TAE edits (needs A LOT of testing)
--1.35x soul multiplier
--REMOVED life ring +3 vigor (instead 3 vigor added to each starting class)
--REMOVED mp regen -1 on life ring
--added .5% fp regen per second on all armor (including nude) (built into defense spEffects)
-(Life ring is vanilla now)
+-1.35x soul multiplier (need to be looked at)
 
--added Calamity ring in place of Cracked Red Eye Orbs
--Calamity ring now decreases damage by 1/2
+-changed to 1% fp regen per 3 seconds (20% fp regen per minute)
+-removed the "HARDEST BOSS IN THE GAME" (tree jump)
 
 things to potentially add
 --------------------------
+
+-fix defense...all defensive spell effects only prock once. :(
+-after you fix defense you're probly gonna have to nerf it...
+
+-fix magic...
 
 -fix the name of the "assassin" ... lol
 -maybe change around the starting gifts?
@@ -58,6 +58,16 @@ Jailer HP drain SpEffectParam 11907
 stateinfo 207
 
 -slow down estus recovery (contacted CornflakeRush) (requires animation edits and hoodie stuff)
+
+stretch goals
+--------------
+
+-fix yhorm
+-fix wolnir?
+-fix treeballs?
+
+-figure out a way to warp over to irithyll dungeon
+-figure out a way to warp from yoel bridge to farron keep
 _____________________
 _____________________
 
@@ -316,3 +326,21 @@ Spell Parries
 Sacred Bloom 12 frames anim 214
 Golden Wing 12 frames anim 150
 
+__________________________________
+FP Changes
+
+-remove FP from WAs that don't need it
+-decrease FP from WAs that do need it
+-maybe have SUPER slow regen
+
+-change spell costs (maybe do some balancing too)
+
+current changes 
+--------------
+-added .5% fp regen per second on all armor (including nude) (built into defense spEffects)
+
+-changed to 1% fp regen per 3 seconds (20% fp regen per minute)
+
+specific spell changes
+------------------
+-maybe 1/2 spell cost for emit force (it kinda sucks, test it more at high levels tho)
