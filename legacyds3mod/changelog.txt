@@ -32,27 +32,23 @@ Things I changed in ds3 currently
 -made parries better (needs extensive testing)
 
 -changed A LOT of starting class stuff
--1.35x soul multiplier (need to be looked at)
 
 -changed to 1% fp regen per 3 seconds (20% fp regen per minute)
 -removed the "HARDEST BOSS IN THE GAME" (tree jump)
 
+-1.35x soul multiplier removed (needs testing)
+
+-calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.5x
+
 things to potentially add
 --------------------------
+-fix magic?
 
--fix defense...all defensive spell effects only prock once. :(
--after you fix defense you're probly gonna have to nerf it...
-
--fix magic...
-
--fix the name of the "assassin" ... lol
--maybe change around the starting gifts?
+-fix the name of the starting classes and gifts
 
 -remove some bonfires (I know how >:)  )
 -change some dickweed enemy placements (specifics to come)
 -add more fun enemies to fight in boring areas
-
--fix npc's having too much poise
 
 Jailer HP drain SpEffectParam 11907
 stateinfo 207
@@ -63,30 +59,25 @@ stretch goals
 --------------
 
 -fix yhorm
--fix wolnir?
--fix treeballs?
+-fix wolnir? (I dunno...)
+-fix treeballs? (who knows...)
+-fix deacons? (maybe replace with 1st phase of pontiff or ghost pontiff?)
 
 -figure out a way to warp over to irithyll dungeon
 -figure out a way to warp from yoel bridge to farron keep
+
+-improve the lighting in the game (like the convergence mod)
 _____________________
 _____________________
-
-current poise changes
-dmgLv_Push was 0
-dmgLv_BlowM was 5
-dmgLv_BlowS was 5
-dmgLv_BlowLL was 5
-
-effectTargetFriend was on
-effectTargetEnemy was on
-
 	current defense changes
 Added 4 defense classes
 	phys,elem	class	weight
-<2 weight = 5,10	1	<2
-<5 weight = 10,10	2	<5
-<10 weight = 20,15	3	<10
-10+ weight = 30,20	4	10+
+<2 weight = 5,7		1	<2
+<5 weight = 7,7		2	<5
+<10 weight = 10,10	3	<10
+10+ weight = 15,15	4	10+
+
+currently dark defense is untouched (I don't know how to change it)
 
 ______________________
 ______________________
@@ -118,14 +109,14 @@ Dilapidated Bridge
 
 Road of Sacrifices (?)
 Crucifixion Woods
-Crystal Sage
-Farron Keep
+Crystal Sage (?)
+Farron Keep (?)
 Farron Keep Perimeter
 Old Wolf of Farron
 Abyss Watchers (?)
 
 Cathedral of the Deep
-Rosaria's Bed Chamber
+Rosaria's Bed Chamber (?)
 
 High Lord Wolnir
 Abandoned Tomb
@@ -134,7 +125,7 @@ Old Demon King
 
 Irithyll of The Boreal Valley
 Distant Manor
-Pontiff Sulyvahn
+Pontiff Sulyvahn (? needs a hard look)
 Water Reserve
 Prison Tower
 
@@ -325,22 +316,3 @@ Farron Greatsword 8 --> 7 frames, animation 161 fixed
 Spell Parries
 Sacred Bloom 12 frames anim 214
 Golden Wing 12 frames anim 150
-
-__________________________________
-FP Changes
-
--remove FP from WAs that don't need it
--decrease FP from WAs that do need it
--maybe have SUPER slow regen
-
--change spell costs (maybe do some balancing too)
-
-current changes 
---------------
--added .5% fp regen per second on all armor (including nude) (built into defense spEffects)
-
--changed to 1% fp regen per 3 seconds (20% fp regen per minute)
-
-specific spell changes
-------------------
--maybe 1/2 spell cost for emit force (it kinda sucks, test it more at high levels tho)
