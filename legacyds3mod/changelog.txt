@@ -38,11 +38,22 @@ Things I changed in ds3 currently
 
 -1.35x soul multiplier removed (needs testing)
 
--calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.5x
+-calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x
 
 things to potentially add
 --------------------------
+
+-add defense weightclass for 15+
+
 -fix magic?
+
+-turn off crossbow in izalith2
+
+-turn off the movement penalty from muck
+
+-remove the fucking goonies that shoot lazer beams at your while you're trying to fight dragonslayer armor
+
+-add physical parry frames to twisted barricade?
 
 -fix the name of the starting classes and gifts
 
@@ -316,3 +327,35 @@ Farron Greatsword 8 --> 7 frames, animation 161 fixed
 Spell Parries
 Sacred Bloom 12 frames anim 214
 Golden Wing 12 frames anim 150
+
+_______________________________________
+Magic Changes 
+
+changed crown of dusk equipModelID 9800 --> 0 (removed ugly)
+
+Sorcery
+----------------
+Soul Arrow --> dart
+Great Soul Arrow --> dart
+Heavy Soul Arrow --> slow
+Great Heavy Soul Arrow --> slow
+Farron Dart --> removed fp cost
+Great Farron Dart --> 4fp cost to 2fp
+Farron Hail --> AtkMag 58 --> 80
+Homing Soulmass --> AtkMag 49 --> 65 (have to do this for both params)
+Homing Crystal Soulmass --> AtkMag 65 --> 75 (only do this for the projectile part)(it's busted otherwise)
+Crystal Hail --> added tracking :)
+Soul Spear --> quick
+Crystal Soul Spear --> quick
+Soul Stream --> changed duration 1 --> 3 seconds
+Aural Decoy --> (I want to make it identical to alluring skull...dunno how tho)
+Twisted Barricade --> (I would love to add actual parry frames to this, and increase spell parry frames...dunno how tho)
+
+Dark Magic
+-------------------
+Deep Soul --> dart
+Affinity --> atkDark 60 --> 80 (have to do this for both params)
+
+
+
+
