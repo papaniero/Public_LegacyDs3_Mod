@@ -350,12 +350,71 @@ Crystal Soul Spear --> quick
 Soul Stream --> changed duration 1 --> 3 seconds
 Aural Decoy --> (I want to make it identical to alluring skull...dunno how tho)
 Twisted Barricade --> (I would love to add actual parry frames to this, and increase spell parry frames...dunno how tho)
-
-Dark Magic
--------------------
-Deep Soul --> dart
+Deep Soul --> dart, added to karla for 5k
+Great Deep Soul --> added to karla for 15k
+Great Soul Dregs --> added to karla for 40k
 Affinity --> atkDark 60 --> 80 (have to do this for both params)
 
 
 
+Pyromancy
+------------
+fireball --> corona
+Combustion --> removed fp cost
+Bursting Fireball --> AtkFire 71/125 --> 90/200 (needs changing in three places...) 
+Fire Surge --> 2fp/s --> 1fp/s
+Fire Whip --> 2fp/s --> 1fp/s
+Firestorm hitRadius .8 --> 4
+Chaos Storm --> 3fp/s --> 6fp/s
+	12451300 life/dmgHitRecordLifetime .5/2 --> 10/10
+Sacred Flame --> 25fp --> 14fp (not really satisfied with this...but I can't fix it further...)
+Profraned Flame --> AtkFire 260 --> 300
+Poison Mist --> needs to be fixed
+	Duration 30
+	Trigger Interval .5
+	change hp% .1
+	change hpPt 5
+Toxic Mist --> needs to be fixed
+	Duration 15
+	Trigger Interval .5
+	change hp% .2
+	change hpPt 10
+Rapport --> duration 30 --> 80 (this needs to be looked at)
+Floating Chaos --> 4.4sec --> 10sec
+	12457110 LimitBulletParamId 0 --> 10
+	had to nerf it because it was busted...now costs 100 fp and 80 stamina
+Iron Flesh --> 
+	stateInfo 287 --> 0
+	moveType 5 --> 0
+	equipWeightChangeRate 1 --> .5
+	allItemWeightChangeRate 1 --> .25
+	removed absorbtion bonus
+	added flat 100 physDef bonus instead
+	increased duration 17 --> 30
+	added fucking super-ultra-mega-poise69*
 
+Miracles
+----------
+Tears of Denial faith req 15 --> 30
+Seek Guidance --> 0fp cost
+Force 0 --> 400
+Emit Force 120 --> 150 remove from starting cleric
+	20fp --> 15fp
+Wrath of the Gods 320 --> 600
+Lightning Storm probly fine
+Divine Pillars of Light --> NOT fine
+	hitRadius .8 --> 4
+	AtkPhys 190 --> 210
+	slots 1 --> 2
+	cost 3 --> 4
+Way of White Corona --> add to starting cleric
+	AtkPhys 85 --> 110
+	15fp --> 10fp
+
+Lightning Arrow --> add to irina's shop? 20k (carim tome)
+Great Lightning Spear --> add to irina's shop 20k (carim tome)
+Sunlight Spear --> add to irina's shop 40k (lothric tome)
+Vow of Silence 2slots --> 1slot
+
+NOTE:
+Boss MaxHp before areaMultiplier is listed in cheat engine.
