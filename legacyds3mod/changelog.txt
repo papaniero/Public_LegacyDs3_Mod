@@ -418,3 +418,11 @@ Vow of Silence 2slots --> 1slot
 
 NOTE:
 Boss MaxHp before areaMultiplier is listed in cheat engine.
+teamType 2 = white phantom (friendly)
+
+m33 = road/farron
+m35 = cathedral <done> (The outrider might need to be removed)
+m37 = irithyll
+m38 = not izalith
+m39 = dungeon/capital
+m40 = firelink/untended
