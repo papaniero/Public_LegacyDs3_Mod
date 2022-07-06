@@ -416,13 +416,26 @@ Great Lightning Spear --> add to irina's shop 20k (carim tome)
 Sunlight Spear --> add to irina's shop 40k (lothric tome)
 Vow of Silence 2slots --> 1slot
 
+_______________________________________________________
+Boss Changes
+
+(nerfed and shamed) (this likely won't stick, but it's funny so it stays for now)
+Curse-rotted Greatwood --> Treeballs
+HP 4270 --> 1000
+
 NOTE:
 Boss MaxHp before areaMultiplier is listed in cheat engine.
-teamType 2 = white phantom (friendly)
+Bosses can also be found via their npcParamID in mapstudio. (this is better)
 
+made scripting changes in order to facilitate no-respawn enemies...however, these may have clobbered existing scripts
+located in m31 and m35
+
+m30 = lothric
+m31 = settlement <done>
 m33 = road/farron
 m35 = cathedral <done> (The outrider might need to be removed)
 m37 = irithyll
 m38 = not izalith
 m39 = dungeon/capital
 m40 = firelink/untended
+
