@@ -40,6 +40,13 @@ Things I changed in ds3 currently
 
 -calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x
 
+-magic changes
+
+-boss changes
+
+-map changes
+
+
 things to potentially add
 --------------------------
 
@@ -78,6 +85,8 @@ stretch goals
 -figure out a way to warp from yoel bridge to farron keep
 
 -improve the lighting in the game (like the convergence mod)
+
+-make vordt drop the banner
 _____________________
 _____________________
 	current defense changes
@@ -427,13 +436,21 @@ NOTE:
 Boss MaxHp before areaMultiplier is listed in cheat engine.
 Bosses can also be found via their npcParamID in mapstudio. (this is better)
 
+Map Changes
+_______________________________________________________
+
+-quickstep dagger no longer required to complete certain areas (nerfed swamps)
+stateInfo 287 --> 286 in deep water
+stateInfo 286 --> removed in shallow water
+
 made scripting changes in order to facilitate no-respawn enemies...however, these may have clobbered existing scripts
 located in m31 and m35
 
 m30 = lothric
 m31 = settlement <done>
+m32 = archdragon
 m33 = road/farron
-m35 = cathedral <done> (The outrider might need to be removed)
+m35 = cathedral <done>
 m37 = irithyll
 m38 = not izalith
 m39 = dungeon/capital
