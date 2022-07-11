@@ -4,7 +4,7 @@ Things I changed in ds3 currently
 -added Legacy Poise
 (ceiling then 2x multiplier of vanilla poise value)
 -added Weight Class Defense (needs exhaustive testing)
-(4 classes based on weight <2,<5,<10,10+)
+(5 classes based on weight <2,<5,<10,<15, 15+)
 
 -increased damage of heavy attacks 1.1x
 -increased 2h attack damage 1.1x
@@ -21,7 +21,6 @@ Things I changed in ds3 currently
 -allows more throwables to be carried
 -removed boss status immunity for poison, bleed, and frostbite
 
-
 -un-nerfed nudity
 -buffed elemental arrows (needs testing)
 
@@ -36,8 +35,6 @@ Things I changed in ds3 currently
 -changed to 1% fp regen per 3 seconds (20% fp regen per minute)
 -removed the "HARDEST BOSS IN THE GAME" (tree jump)
 
--1.35x soul multiplier removed (needs testing)
-
 -calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x
 
 -magic changes
@@ -46,32 +43,21 @@ Things I changed in ds3 currently
 
 -map changes
 
-
 things to potentially add
 --------------------------
-
--add defense weightclass for 15+
 
 -fix magic?
 
 -turn off crossbow in izalith2
 
--turn off the movement penalty from muck
-
--remove the fucking goonies that shoot lazer beams at your while you're trying to fight dragonslayer armor
-
 -add physical parry frames to twisted barricade?
 
 -fix the name of the starting classes and gifts
 
--remove some bonfires (I know how >:)  )
--change some dickweed enemy placements (specifics to come)
--add more fun enemies to fight in boring areas
-
 Jailer HP drain SpEffectParam 11907
 stateinfo 207
 
--slow down estus recovery (contacted CornflakeRush) (requires animation edits and hoodie stuff)
+-fix some bad enemies (pontiff dog, handbaby?, floating chaos demons, GS cathedral knights, cathedral giant, etc...)
 
 stretch goals
 --------------
@@ -86,7 +72,7 @@ stretch goals
 
 -improve the lighting in the game (like the convergence mod)
 
--make vordt drop the banner
+-make vordt drop the banner, so you don't have to talk to granny.
 _____________________
 _____________________
 	current defense changes
@@ -95,9 +81,10 @@ Added 4 defense classes
 <2 weight = 5,7		1	<2
 <5 weight = 7,7		2	<5
 <10 weight = 10,10	3	<10
-10+ weight = 15,15	4	10+
+<15 weight = 15,15	4	<15
+15+ weight = 20,20	5	15+
 
-currently dark defense is untouched (I don't know how to change it)
+currently dark defense is untouched (I don't know how to change it) (probly can't)
 
 ______________________
 ______________________
@@ -124,19 +111,13 @@ Dancer of The Boreal Valley
 Oceiros, The Consumed King
 
 Foot of The High Wall
-Undead Settlement (?)
 Dilapidated Bridge
 
-Road of Sacrifices (?)
 Crucifixion Woods
-Crystal Sage (?)
-Farron Keep (?)
 Farron Keep Perimeter
 Old Wolf of Farron
-Abyss Watchers (?)
 
 Cathedral of the Deep
-Rosaria's Bed Chamber (?)
 
 High Lord Wolnir
 Abandoned Tomb
@@ -145,7 +126,6 @@ Old Demon King
 
 Irithyll of The Boreal Valley
 Distant Manor
-Pontiff Sulyvahn (? needs a hard look)
 Water Reserve
 Prison Tower
 
@@ -430,7 +410,11 @@ Boss Changes
 
 (nerfed and shamed) (this likely won't stick, but it's funny so it stays for now)
 Curse-rotted Greatwood --> Treeballs
-HP 4270 --> 1000
+HP 4270 --> 3000
+
+Abyss Watchers HP 830 --> 1400
+
+removed them weird laserbeam spammers from dragonslayer armor
 
 NOTE:
 Boss MaxHp before areaMultiplier is listed in cheat engine.
@@ -446,13 +430,19 @@ stateInfo 286 --> removed in shallow water
 made scripting changes in order to facilitate no-respawn enemies...however, these may have clobbered existing scripts
 located in m31 and m35
 
+added script in m33 to change mapceremony to 10 for 30, 34, 31, 33, 35
+(in plain english, I added fancy eclipse to the map as soon as the player reaches road of sacrifices)
+
 m30 = lothric
 m31 = settlement <done>
 m32 = archdragon
-m33 = road/farron
+m33 = road/farron <done> may go back in for some lighting fixes...
 m35 = cathedral <done>
 m37 = irithyll
 m38 = not izalith
 m39 = dungeon/capital
 m40 = firelink/untended
 
+sPoOkY SmOkE ID?????: 830202, 830052
+
+ThickFog: 831080 	unk2c: 34
