@@ -37,18 +37,20 @@ Things I changed in ds3 currently
 
 -calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x
 
+-added cast light effect on skull ring and added it to the shop
+
 -magic changes
 
 -boss changes
 
 -map changes
 
+-reduced effectiveness of early game vigor points, curve is now more linear
+
 things to potentially add
 --------------------------
 
 -fix magic?
-
--turn off crossbow in izalith2
 
 -add physical parry frames to twisted barricade?
 
@@ -343,7 +345,8 @@ Deep Soul --> dart, added to karla for 5k
 Great Deep Soul --> added to karla for 15k
 Great Soul Dregs --> added to karla for 40k
 Affinity --> atkDark 60 --> 80 (have to do this for both params)
-
+Cast Light --> duration 60 --> 120
+Allowed for the cleric's candlestick to be buffed.
 
 
 Pyromancy
@@ -408,13 +411,16 @@ Vow of Silence 2slots --> 1slot
 _______________________________________________________
 Boss Changes
 
-(nerfed and shamed) (this likely won't stick, but it's funny so it stays for now)
+(name will likely get changed back, but it's really funny so it stays for now)
 Curse-rotted Greatwood --> Treeballs
 HP 4270 --> 3000
 
 Abyss Watchers HP 830 --> 1400
 
 removed them weird laserbeam spammers from dragonslayer armor
+
+Pontiff Hp 1952 --> 2500
+Apparition 156 --> 400
 
 NOTE:
 Boss MaxHp before areaMultiplier is listed in cheat engine.
@@ -433,14 +439,20 @@ located in m31 and m35
 added script in m33 to change mapceremony to 10 for 30, 34, 31, 33, 35
 (in plain english, I added fancy eclipse to the map as soon as the player reaches road of sacrifices)
 
+added script to default izalith2 crossbow ai to disabled
+
+T-pose abyss watchers use darkwraith ai due to their default view range, this could possibly
+be tweaked...but later. The T-posing is not that common, and it's kinda funny, so it stays for now.
+
+
 m30 = lothric
 m31 = settlement <done>
 m32 = archdragon
 m33 = road/farron <done> may go back in for some lighting fixes...
 m35 = cathedral <done>
-m37 = irithyll
-m38 = not izalith
-m39 = dungeon/capital
+m37 = irithyll <done>
+m38 = not izalith + catacombs <done>
+m39 = dungeon/capital <in progress>
 m40 = firelink/untended
 
 sPoOkY SmOkE ID?????: 830202, 830052
