@@ -52,27 +52,28 @@ things to potentially add
 
 -fix magic?
 
--add physical parry frames to twisted barricade?
+-put the slumbering dragoncrest ring on the greirat
+
+-add physical parry frames to twisted barricade? (this needs some priority since magic has a hard time vs shield enemies)
+
+-might fix some other spells that are stupid and bad/useless
 
 -fix the name of the starting classes and gifts
 
 Jailer HP drain SpEffectParam 11907
 stateinfo 207
 
--fix some bad enemies (pontiff dog, handbaby?, floating chaos demons, GS cathedral knights, cathedral giant, etc...)
+-fix some bad enemies (pontiff dog, floating chaos demons, GS cathedral knights, cathedral giant, etc...)
 
 stretch goals
 --------------
 
--fix yhorm
 -fix wolnir? (I dunno...)
 -fix treeballs? (who knows...)
 -fix deacons? (maybe replace with 1st phase of pontiff or ghost pontiff?)
 
 -figure out a way to warp over to irithyll dungeon
 -figure out a way to warp from yoel bridge to farron keep
-
--improve the lighting in the game (like the convergence mod)
 
 -make vordt drop the banner, so you don't have to talk to granny.
 _____________________
@@ -322,7 +323,7 @@ Golden Wing 12 frames anim 150
 _______________________________________
 Magic Changes 
 
-changed crown of dusk equipModelID 9800 --> 0 (removed ugly)
+changed crown of dusk equipModelID 9800 --> 0 (removed, ugly)
 
 Sorcery
 ----------------
@@ -422,9 +423,10 @@ removed them weird laserbeam spammers from dragonslayer armor
 Pontiff Hp 1952 --> 2500
 Apparition 156 --> 400
 
-NOTE:
-Boss MaxHp before areaMultiplier is listed in cheat engine.
-Bosses can also be found via their npcParamID in mapstudio. (this is better)
+Yhorm Hp 10370 --> 2600 (hitting his legs does basically nothing...so I'm scared to buff him too much)
+Ai Changes
+Removed Yhorm's stupid roar move. Replaced it with slam. He slams more now.
+
 
 Map Changes
 _______________________________________________________
@@ -443,7 +445,9 @@ added script to default izalith2 crossbow ai to disabled
 
 T-pose abyss watchers use darkwraith ai due to their default view range, this could possibly
 be tweaked...but later. The T-posing is not that common, and it's kinda funny, so it stays for now.
+(this can probly be fixed, I was able to fix creating new npc params by rebooting, so this may apply here too...)
 
+Gargoyles in profaned capital can no longer block effectively. (This probably needs to be changed for the archives too)
 
 m30 = lothric
 m31 = settlement <done>
@@ -452,9 +456,6 @@ m33 = road/farron <done> may go back in for some lighting fixes...
 m35 = cathedral <done>
 m37 = irithyll <done>
 m38 = not izalith + catacombs <done>
-m39 = dungeon/capital <in progress>
-m40 = firelink/untended
+m39 = dungeon/capital <done>
+m40 = firelink/untended <next> (buff gundyr lol)
 
-sPoOkY SmOkE ID?????: 830202, 830052
-
-ThickFog: 831080 	unk2c: 34
