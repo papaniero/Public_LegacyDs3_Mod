@@ -449,13 +449,31 @@ be tweaked...but later. The T-posing is not that common, and it's kinda funny, s
 
 Gargoyles in profaned capital can no longer block effectively. (This probably needs to be changed for the archives too)
 
+added script in m31 to facilitate warp between undead settlement bridge, and farron keep bridge with stray demon
+added script in m35 to facilitate warp between cathedral spider room and irithyll dungeon cell near bonfire
+
+this was accomplished by adding a c1000 for the initial location, c0000 for the destination,
+and adding a 4 digit ID actionbuttonparam
+
+eID xx x x xxx
+<map> <block> <type> <unique id>
+
+Prompt EID: 6900
+SETTLEMENT Warp EID: 3102769
+FARRON Warp EID: 3302469
+Script: 13105769
+
+Prompt EID: 6901
+CATH Warp EID: 3502069
+DUNGEON Warp EID: 3902469
+Script: 13505969
+
 m30 = lothric
 m31 = settlement <done>
 m32 = archdragon
 m33 = road/farron <done> may go back in for some lighting fixes...
-m35 = cathedral <done>
+m35 = cathedral <done> maybe turn on more of the votive candle things
 m37 = irithyll <done>
 m38 = not izalith + catacombs <done>
 m39 = dungeon/capital <done>
-m40 = firelink/untended <next> (buff gundyr lol)
-
+m40 = firelink/untended <next> (buff gundyr lol) (more candles lol)
