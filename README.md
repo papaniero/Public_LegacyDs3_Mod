@@ -1,4 +1,4 @@
-#Legacy Dark Souls 3 Mod
+# Legacy Dark Souls 3 Mod
 
 The goal of this project was to provide a more classic Dark Souls
 experience for veteran souls players while keeping Dark Souls 3
@@ -11,7 +11,7 @@ Hopefully, anyone who decides to try LegacyDS3 enjoys it as much as I do.
 
 Stay human, or embered or whatever.
 
-##Features
+## Features
 
 + Added poise and defense to all armor
 + Increased damage delt by two handed and heavy attacks
@@ -30,9 +30,9 @@ Stay human, or embered or whatever.
 - Reduced the amount of obnoxious enemies (Slimes, Ghru, Thralls, Enemies that spam grab attacks, etc...)
 - Heavily reduced the movement penalty from swamps in all areas.
 
-	<Work in Progress>
+	### Work in Progress
 
-##Download Instructions
+## Download Instructions
 
 Copy and paste these files into your dark souls 3 game directory.
 C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS III\Game
@@ -48,7 +48,7 @@ These can be found in roaming appdata folder.
 I don't know if this will be resolved, or if it already has been, because it doesn't happen to me.
 Good luck with that.
 
-	<Work in Progress>
+	### Work in Progress
 
 
 
