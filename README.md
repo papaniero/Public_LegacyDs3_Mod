@@ -18,7 +18,7 @@ Stay human, or embered or whatever.
 + Increased damage delt by two handed and heavy attacks
 + Added leveling up and alloting estus at bonfires (Thanks Xylozi)
 + Added passive fp regen
-+ Vastly increased item discovery given by equipment goods
++ Vastly increased item discovery given by equipment and goods
 + Balanced ranged weapons
 + Balanced status based builds
 + Made parries feel a bit more natural
