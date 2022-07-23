@@ -1,4 +1,5 @@
 # Legacy Dark Souls 3 Mod
+***This is all a work in progress and subject to change***
 
 The goal of this project was to provide a more classic Dark Souls
 experience for veteran souls players while keeping Dark Souls 3
@@ -27,10 +28,8 @@ Stay human, or embered or whatever.
 + Balanced bosses
 + Changed enemy placements a bit to facilitate a better area flow
 + Reworked the lighting on certain maps to make the game a little less yellow.
-- Reduced the amount of obnoxious enemies (Slimes, Ghru, Thralls, Enemies that spam grab attacks, etc...)
-- Heavily reduced the movement penalty from swamps in all areas.
-
-	### Work in Progress
++ Reduced the amount of obnoxious enemies (Slimes, Ghru, Thralls, Enemies that spam grab attacks, etc...)
++ Heavily reduced the movement penalty from swamps in all areas.
 
 ## Download Instructions
 
@@ -47,8 +46,3 @@ It's a good idea to backup your save files before using this mod.
 These can be found in roaming appdata folder.
 I don't know if this will be resolved, or if it already has been, because it doesn't happen to me.
 Good luck with that.
-
-	### Work in Progress
-
-
-
