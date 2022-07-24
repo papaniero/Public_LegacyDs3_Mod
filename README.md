@@ -23,7 +23,7 @@ Stay human, or embered or whatever.
 + Balanced status based builds
 + Made parries feel a bit more natural
 + Spiced up the starting classes
-+ Calamity ring changed for use by Dark souls pros (I use it for bosses I like to spice things up)
++ Calamity ring changed for use by Dark souls pros (I use it for enjoyable bosses...to spice things up)
 + Balanced magic
 + Balanced bosses
 + Changed enemy placements a bit to facilitate a better area flow
