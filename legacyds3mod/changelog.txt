@@ -1,21 +1,21 @@
-Things I changed in ds3 currently
--------------------------------------
+Current Dark Souls 3 Changes
+=====================================================================
 
--added Legacy Poise
+-added legacy poise
 (ceiling then 2x multiplier of vanilla poise value)
--added Weight Class Defense (needs exhaustive testing)
+-added weight class defense system (needs exhaustive testing)
 (5 classes based on weight <2,<5,<10,<15, 15+)
 
 -increased damage of heavy attacks 1.1x
 -increased 2h attack damage 1.1x
 
--Added levelup and allot prompt to bonfires via script made by Xylozi
+-added levelup and allot prompt to bonfires via script made by Xylozi
 
--Item discovery vastly increased (needs testing)
+-item discovery vastly increased from equiptment and goods (needs testing)
 
--reduce shop prices of ammunition
--allow more ammunitions to be carried
--Reworked Bows, Greatbows, Crossbows (needs extensive testing)
+-reduced shop prices of ammunition
+-allowed more ammunitions to be carried
+-reworked bows, greatbows, crossbows (needs more testing, especially crossbows)
 
 -poison no longer sucks (needs more testing)
 -allows more throwables to be carried
@@ -28,31 +28,31 @@ Things I changed in ds3 currently
 
 -increased punch dps (got a job for anthony) base 20 --> 30 (needs testing)
 
--made parries better (needs extensive testing)
+-made parries better
 
--changed A LOT of starting class stuff
+-spiced up starting classes and gifts (this probably needs a more detailed description below)
 
--changed to 1% fp regen per 3 seconds (20% fp regen per minute)
--removed the "HARDEST BOSS IN THE GAME" (tree jump)
+-added 1% fp regen per 3 seconds (20% fp regen per minute)
+-added ladder to subvert treejump
+-added warp point from undead settlment bridge to farron keep bridge
+-added warp point from cathedral spider room to irithyll dungeon cell
 
--calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x
+-calamity ring now decreases damage dealt by player by 50% and reduces absorbtions by 1.25x (needs testing)
 
--added cast light effect on skull ring and added it to the shop
+-added cast light effect on skull ring and added it to the shop (probably should be infinite...if possible)
+
+-reduced effectiveness of early game vigor points, curve is now more linear
 
 -magic changes
 
 -boss changes
 
 -map changes
-
--reduced effectiveness of early game vigor points, curve is now more linear
-
+_____________________________________________________________________
 things to potentially add
---------------------------
+---------------------------------------------------------------------
 
--fix magic?
-
--put the slumbering dragoncrest ring on the greirat
+-put the slumbering dragoncrest ring on greirat
 
 -add physical parry frames to twisted barricade? (this needs some priority since magic has a hard time vs shield enemies)
 
@@ -60,24 +60,25 @@ things to potentially add
 
 -fix the name of the starting classes and gifts
 
-Jailer HP drain SpEffectParam 11907
-stateinfo 207
-
 -fix some bad enemies (pontiff dog, floating chaos demons, GS cathedral knights, cathedral giant, etc...)
 
 stretch goals
---------------
+---------------------------------------------------------------------
 
--fix wolnir? (I dunno...)
--fix treeballs? (who knows...)
--fix deacons? (maybe replace with 1st phase of pontiff or ghost pontiff?)
-
--figure out a way to warp over to irithyll dungeon
--figure out a way to warp from yoel bridge to farron keep
+-fix wolnir? (I dunno...) (reduce fog damage, allow for slapping his hands...not just rings)
+-fix treeballs? (eh)
+-fix deacons? (maybe replace with 1st phase of pontiff or ghost pontiff?) (that was an unpopular idea...)
 
 -make vordt drop the banner, so you don't have to talk to granny.
-_____________________
-_____________________
+
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+
+
+Specifics Below
+=====================================================================
+
 	current defense changes
 Added 4 defense classes
 	phys,elem	class	weight
@@ -89,8 +90,7 @@ Added 4 defense classes
 
 currently dark defense is untouched (I don't know how to change it) (probly can't)
 
-______________________
-______________________
+_____________________________________________________________________
 Heavy Attack Stuff
 
 4 Digits followed by a 1 or 3 and then 2 more digits.
@@ -102,8 +102,7 @@ param AtkParam_Pc: id \d{4,4}[13]\d\d: [Aa]tk.*Correction: * 1.1;
 //increases two handed damage
 param AtkParam_Pc: id \d{4,4}[23]\d\d: [Aa]tk.*Correction: * 1.1;
 
-______________________
-______________________
+_____________________________________________________________________
 Bonfires Marked For Destruction:
 
 Iudex Gundyr
@@ -150,9 +149,7 @@ The Demon Prince
 Mausoleum Lookout
 Shared Grave
 Church of Filianore
-
-___________________
-___________________
+_____________________________________________________________________
 Bow Changes
 
 MaxNum --> change max number held (seems like 255 is max?)
@@ -265,7 +262,7 @@ moonlight arrow
 physical damage 0 --> 20
 magic damage 75 --> 100
 
-_______________________
+_____________________________________________________________________
 Poison Changes
 
 SpEffectParam Infusion: Poison (and arrows, and throwing knives, and pine resin)
@@ -296,12 +293,12 @@ Poison Throwing Knife
 Kukri
 Rope Firebomb
 Rope Black Firebomb
-___________________
+_____________________________________________________________________
 Nudity
 
 SpEffectParam 6380-6383
 Found in armor params 900000 etc
-_________________________________
+_____________________________________________________________________
 Parry Anim Edits
 
 removed partial parries
@@ -320,13 +317,13 @@ Spell Parries
 Sacred Bloom 12 frames anim 214
 Golden Wing 12 frames anim 150
 
-_______________________________________
+_____________________________________________________________________
 Magic Changes 
 
 changed crown of dusk equipModelID 9800 --> 0 (removed, ugly)
 
 Sorcery
-----------------
+---------------------------------------------------------------------
 Soul Arrow --> dart
 Great Soul Arrow --> dart
 Heavy Soul Arrow --> slow
@@ -351,7 +348,7 @@ Allowed for the cleric's candlestick to be buffed.
 
 
 Pyromancy
-------------
+---------------------------------------------------------------------
 fireball --> corona
 Combustion --> removed fp cost
 Bursting Fireball --> AtkFire 71/125 --> 90/200 (needs changing in three places...) 
@@ -387,7 +384,7 @@ Iron Flesh -->
 	added fucking super-ultra-mega-poise69*
 
 Miracles
-----------
+---------------------------------------------------------------------
 Tears of Denial faith req 15 --> 30
 Seek Guidance --> 0fp cost
 Force 0 --> 400
@@ -409,7 +406,7 @@ Great Lightning Spear --> add to irina's shop 20k (carim tome)
 Sunlight Spear --> add to irina's shop 40k (lothric tome)
 Vow of Silence 2slots --> 1slot
 
-_______________________________________________________
+_____________________________________________________________________
 Boss Changes
 
 (name will likely get changed back, but it's really funny so it stays for now)
@@ -427,9 +424,11 @@ Yhorm Hp 10370 --> 2600 (hitting his legs does basically nothing...so I'm scared
 Ai Changes
 Removed Yhorm's stupid roar move. Replaced it with slam. He slams more now.
 
+Iudex HP 1037 --> 1451
+Champion Hp 1451 --> 2350
 
+_____________________________________________________________________
 Map Changes
-_______________________________________________________
 
 -quickstep dagger no longer required to complete certain areas (nerfed swamps)
 stateInfo 287 --> 286 in deep water
@@ -446,6 +445,10 @@ added script to default izalith2 crossbow ai to disabled
 T-pose abyss watchers use darkwraith ai due to their default view range, this could possibly
 be tweaked...but later. The T-posing is not that common, and it's kinda funny, so it stays for now.
 (this can probly be fixed, I was able to fix creating new npc params by rebooting, so this may apply here too...)
+
+Removed Jailer HP drain 
+SpEffectParam 11907
+stateinfo 207
 
 Gargoyles in profaned capital can no longer block effectively. (This probably needs to be changed for the archives too)
 
@@ -476,4 +479,9 @@ m35 = cathedral <done> maybe turn on more of the votive candle things
 m37 = irithyll <done>
 m38 = not izalith + catacombs <done>
 m39 = dungeon/capital <done>
-m40 = firelink/untended <next> (buff gundyr lol) (more candles lol)
+m40 = firelink/untended <done>
+
+remove when ocelotman does that cancer unreactable bumrush move
+
+odd layer is firelink
+even layer is untended
