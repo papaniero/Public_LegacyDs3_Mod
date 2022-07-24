@@ -417,15 +417,18 @@ Abyss Watchers HP 830 --> 1400
 
 removed them weird laserbeam spammers from dragonslayer armor
 
-Pontiff Hp 1952 --> 2500
+Pontiff Hp 1952 --> 2500 (6540)
 Apparition 156 --> 400
 
 Yhorm Hp 10370 --> 2600 (hitting his legs does basically nothing...so I'm scared to buff him too much)
 Ai Changes
 Removed Yhorm's stupid roar move. Replaced it with slam. He slams more now.
 
-Iudex HP 1037 --> 1451
+Iudex Hp 1037 --> 1451
 Champion Hp 1451 --> 2350
+
+Vordt Hp 1190 --> 1800
+Dancer Hp 1649 (5111) --> 2100(6510)
 
 _____________________________________________________________________
 Map Changes
