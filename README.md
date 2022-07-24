@@ -34,6 +34,7 @@ Stay human, or embered or whatever.
 ## Download Instructions
 
 Copy and paste these files into your dark souls 3 game directory.
+
 C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS III\Game
 
 That is all.
