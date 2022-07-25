@@ -52,6 +52,8 @@ _____________________________________________________________________
 things to potentially add
 ---------------------------------------------------------------------
 
+-increase the durability of the storm ruler (may wanna look into rebalancing some weapons)
+
 -put the slumbering dragoncrest ring on greirat
 
 -add physical parry frames to twisted barricade? (this needs some priority since magic has a hard time vs shield enemies)
@@ -429,6 +431,7 @@ Champion Hp 1451 --> 2350
 
 Vordt Hp 1190 --> 1800
 Dancer Hp 1649 (5111) --> 2100(6510)
+Oceiros Ai Changes, removed his turbo slide move with no telegraph. Replaced it with breath attack.
 
 _____________________________________________________________________
 Map Changes
@@ -474,7 +477,7 @@ CATH Warp EID: 3502069
 DUNGEON Warp EID: 3902469
 Script: 13505969
 
-m30 = lothric
+m30 = lothric <in progress>
 m31 = settlement <done>
 m32 = archdragon
 m33 = road/farron <done> may go back in for some lighting fixes...
