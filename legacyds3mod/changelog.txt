@@ -52,6 +52,8 @@ _____________________________________________________________________
 things to potentially add
 ---------------------------------------------------------------------
 
+-increase benefits of -30% equip load
+
 -increase the durability of the storm ruler (may wanna look into rebalancing some weapons)
 
 -put the slumbering dragoncrest ring on greirat
@@ -66,6 +68,9 @@ things to potentially add
 
 stretch goals
 ---------------------------------------------------------------------
+
+-maybe add some boss fights?
+-maybe try and make some unparriable enemies/attacks parriable
 
 -fix wolnir? (I dunno...) (reduce fog damage, allow for slapping his hands...not just rings)
 -fix treeballs? (eh)
@@ -432,6 +437,8 @@ Champion Hp 1451 --> 2350
 Vordt Hp 1190 --> 1800
 Dancer Hp 1649 (5111) --> 2100(6510)
 Oceiros Ai Changes, removed his turbo slide move with no telegraph. Replaced it with breath attack.
+Armour HP 1244(4581) --> 2000(7336)
+Elder Brother phase 1 HP 976(4294) --> 1500(6600)
 
 _____________________________________________________________________
 Map Changes
@@ -457,6 +464,16 @@ SpEffectParam 11907
 stateinfo 207
 
 Gargoyles in profaned capital can no longer block effectively. (This probably needs to be changed for the archives too)
+(LOOKS LIKE THIS CHANGE DIDN'T STICK, NEEDS TO BE CONFIRMED *****************************************)
+*
+*
+*
+*
+*
+*
+*
+this needs to be looked at
+
 
 added script in m31 to facilitate warp between undead settlement bridge, and farron keep bridge with stray demon
 added script in m35 to facilitate warp between cathedral spider room and irithyll dungeon cell near bonfire
@@ -477,7 +494,7 @@ CATH Warp EID: 3502069
 DUNGEON Warp EID: 3902469
 Script: 13505969
 
-m30 = lothric <in progress>
+m30 = lothric <done>
 m31 = settlement <done>
 m32 = archdragon
 m33 = road/farron <done> may go back in for some lighting fixes...
@@ -486,8 +503,6 @@ m37 = irithyll <done>
 m38 = not izalith + catacombs <done>
 m39 = dungeon/capital <done>
 m40 = firelink/untended <done>
-
-remove when ocelotman does that cancer unreactable bumrush move
 
 odd layer is firelink
 even layer is untended
