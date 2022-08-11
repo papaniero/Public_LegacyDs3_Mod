@@ -52,6 +52,8 @@ _____________________________________________________________________
 things to potentially add
 ---------------------------------------------------------------------
 
+-crossbow shit apparently does not work...
+
 -increase benefits of -30% equip load
 
 -increase the durability of the storm ruler (may wanna look into rebalancing some weapons)
@@ -76,7 +78,8 @@ stretch goals
 -fix treeballs? (eh)
 -fix deacons? (maybe replace with 1st phase of pontiff or ghost pontiff?) (that was an unpopular idea...)
 
--make vordt drop the banner, so you don't have to talk to granny.
+-fix the banner drop
+-fix the buttom prompt in doorway of flameless shrine tower
 
 _____________________________________________________________________
 _____________________________________________________________________
@@ -331,8 +334,8 @@ changed crown of dusk equipModelID 9800 --> 0 (removed, ugly)
 
 Sorcery
 ---------------------------------------------------------------------
-Soul Arrow --> dart
-Great Soul Arrow --> dart
+Soul Arrow --> dart, Sp 35 --> 45
+Great Soul Arrow --> dart, Sp 45 --> 55
 Heavy Soul Arrow --> slow
 Great Heavy Soul Arrow --> slow
 Farron Dart --> removed fp cost
@@ -346,7 +349,7 @@ Crystal Soul Spear --> quick
 Soul Stream --> changed duration 1 --> 3 seconds
 Aural Decoy --> (I want to make it identical to alluring skull...dunno how tho)
 Twisted Barricade --> (I would love to add actual parry frames to this, and increase spell parry frames...dunno how tho)
-Deep Soul --> dart, added to karla for 5k
+Deep Soul --> dart, added to karla for 5k, Sp 20 --> 30
 Great Deep Soul --> added to karla for 15k
 Great Soul Dregs --> added to karla for 40k
 Affinity --> atkDark 60 --> 80 (have to do this for both params)
@@ -439,6 +442,8 @@ Dancer Hp 1649 (5111) --> 2100(6510)
 Oceiros Ai Changes, removed his turbo slide move with no telegraph. Replaced it with breath attack.
 Armour HP 1244(4581) --> 2000(7336)
 Elder Brother phase 1 HP 976(4294) --> 1500(6600)
+Ancient Wyvern HP 1763(7873) --> 500
+Diet Ancient Wyvern HP 1757 --> 500
 
 _____________________________________________________________________
 Map Changes
@@ -463,17 +468,7 @@ Removed Jailer HP drain
 SpEffectParam 11907
 stateinfo 207
 
-Gargoyles in profaned capital can no longer block effectively. (This probably needs to be changed for the archives too)
-(LOOKS LIKE THIS CHANGE DIDN'T STICK, NEEDS TO BE CONFIRMED *****************************************)
-*
-*
-*
-*
-*
-*
-*
-this needs to be looked at
-
+Gargoyles can no longer block effectively.
 
 added script in m31 to facilitate warp between undead settlement bridge, and farron keep bridge with stray demon
 added script in m35 to facilitate warp between cathedral spider room and irithyll dungeon cell near bonfire
