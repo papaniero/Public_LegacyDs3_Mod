@@ -1,0 +1,40 @@
+[2024-02-25 03:31:48.227] [modengine] [info] Attempting to load global config at C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\modengine2\config.toml
+[2024-02-25 03:31:48.227] [modengine] [info] Attempting to load mod settings config at C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\config_darksouls3.toml
+[2024-02-25 03:31:48.230] [modengine] [info] Local config loaded
+[2024-02-25 03:31:48.230] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2024-02-25 03:31:48.230] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2024-02-25 03:31:48.230] [modengine] [info] Main thread ID: 4792
+[2024-02-25 03:31:48.231] [modengine] [info] Enabling extension base
+[2024-02-25 03:31:48.232] [modengine] [info] Enabled extension base
+[2024-02-25 03:31:48.232] [modengine] [info] Enabling extension mod_loader
+[2024-02-25 03:31:48.232] [modengine] [info] Installing mod location legacyds3mod
+[2024-02-25 03:31:48.232] [modengine] [info] Resolved mod path to C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\legacyds3mod
+[2024-02-25 03:31:48.232] [modengine] [info] Enabled extension mod_loader
+[2024-02-25 03:31:48.232] [modengine] [info] Enabling extension scylla_hide
+[2024-02-25 03:31:48.232] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2024-02-25 03:31:48.232] [modengine] [info] Starting ScyllaHide injector: C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:19776 ./HookLibraryx64.dll nowait
+[2024-02-25 03:31:48.461] [modengine] [info] Launched Scyllahide process.
+[2024-02-25 03:31:48.912] [modengine] [info] ScyllaHide successfully injected
+[2024-02-25 03:31:48.912] [modengine] [info] Enabled extension scylla_hide
+[2024-02-25 03:31:48.989] [modengine] [info] Applied 3 hooks
+[2024-02-25 03:31:48.991] [modengine] [info] Starting worker thread
+[2024-02-25 16:13:33.141] [modengine] [info] Attempting to load global config at C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\modengine2\config.toml
+[2024-02-25 16:13:33.141] [modengine] [info] Attempting to load mod settings config at C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\config_darksouls3.toml
+[2024-02-25 16:13:33.145] [modengine] [info] Local config loaded
+[2024-02-25 16:13:33.145] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2024-02-25 16:13:33.145] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2024-02-25 16:13:33.145] [modengine] [info] Main thread ID: 9136
+[2024-02-25 16:13:33.147] [modengine] [info] Enabling extension base
+[2024-02-25 16:13:33.147] [modengine] [info] Enabled extension base
+[2024-02-25 16:13:33.147] [modengine] [info] Enabling extension mod_loader
+[2024-02-25 16:13:33.147] [modengine] [info] Installing mod location legacyds3mod
+[2024-02-25 16:13:33.147] [modengine] [info] Resolved mod path to C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\legacyds3mod
+[2024-02-25 16:13:33.147] [modengine] [info] Enabled extension mod_loader
+[2024-02-25 16:13:33.147] [modengine] [info] Enabling extension scylla_hide
+[2024-02-25 16:13:33.147] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2024-02-25 16:13:33.147] [modengine] [info] Starting ScyllaHide injector: C:\Users\benyo\Desktop\Development\LegacyDs3Workspace\work\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:11572 ./HookLibraryx64.dll nowait
+[2024-02-25 16:13:33.154] [modengine] [info] Launched Scyllahide process.
+[2024-02-25 16:13:33.211] [modengine] [info] ScyllaHide successfully injected
+[2024-02-25 16:13:33.211] [modengine] [info] Enabled extension scylla_hide
+[2024-02-25 16:13:33.289] [modengine] [info] Applied 3 hooks
+[2024-02-25 16:13:33.291] [modengine] [info] Starting worker thread
